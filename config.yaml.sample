@@ -1,0 +1,13 @@
+# Sample file.  Copy and rename to config.yaml for your own global
+# configuration, and put a copy of this in each project where you want
+# to control specific directory- and file-exclusion.
+
+exclude_dirs:
+  - bin
+
+# Note you can use file "globbing" (e.g., **/*.txt) for file exclusion,
+# but this must be enclosed in apostrophes, as YAML parser fails otherwise.
+exclude_files:
+  - specific/something.exe
+  - '**/*.exe'
+  
